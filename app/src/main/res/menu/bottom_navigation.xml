@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/bottom_navigation_kickstarter"
+        android:icon="@drawable/kickstarter"
+        android:title="@string/bottom_navigation_title_kickstarter" />
+
+    <item
+        android:id="@+id/bottom_navigation_activity"
+        android:icon="@drawable/activity"
+        android:title="@string/bottom_navigation_title_activity"/>
+
+    <item
+        android:id="@+id/bottom_navigation_search"
+        android:icon="@drawable/search"
+        android:title="@string/bottom_navigation_title_search"/>
+
+    <item
+        android:id="@+id/bottom_navigation_account"
+        android:icon="@drawable/account"
+        android:title="@string/bottom_navigation_title_account"/>
+
+</menu>

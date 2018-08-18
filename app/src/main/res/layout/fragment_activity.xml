@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".BottomNavigation.activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/activity_text_title"
+            android:textSize="@dimen/activity_title_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/activity_text1_margin_end"
+        android:layout_marginStart="@dimen/activity_text1_margin_start"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_text1_margin_top"
+            android:text="@string/activity_text1"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+            android:textSize="@dimen/activity_text1_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/activity_text2_margin_end"
+        android:layout_marginStart="@dimen/activity_text1_margin_start"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/activity_text2_margin_top"
+            android:text="@string/activity_text2"
+            android:textAlignment="textStart"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/activity_text2_size" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LL4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/LL3"
+        android:layout_marginEnd="@dimen/activity_button_margin_end"
+        android:layout_marginStart="@dimen/activity_button_margin_start"
+        android:layout_marginTop="@dimen/activity_ll4_top_margin"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/activity_button"
+            style="@drawable/button2_border"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginTop="@dimen/activity_button_margin_top"
+            android:clickable="true"
+            android:focusable="true"
+            android:onClick="onClick"
+            android:textAlignment="center"
+            android:textStyle="normal"
+            android:text="@string/activity_button"
+            android:backgroundTint="@color/green"
+            android:textColor="@color/black"
+            tools:targetApi="lollipop" />
+
+    </LinearLayout>
+
+</RelativeLayout>

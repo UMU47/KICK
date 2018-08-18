@@ -1,0 +1,16 @@
+RecyclerView homerecyclerview;
+        List<home_items> home_items = new ArrayList<>();
+
+
+        homerecyclerview = findViewById(R.id.home_recycler_view);
+        homerecyclerview.setHasFixedSize(true);
+        homerecyclerview.setLayoutManager(new LinearLayoutManager(this));
+
+        home_items.add(
+                new home_items(
+                        1,
+                        "A Better Backpack: Get a better all-\nday backpack designed to look amazing and carry everything, with...",
+                        "366%\nfunded",
+                        "1025\nbackers",
+                        "38\ndays to go",
+                        R.drawable.back));

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="bottom_navigation_margin">56dp</dimen>
+    <dimen name="bottom_navigation_items">24dp</dimen>
+    <dimen name="padding_ll_top">10dp</dimen>
+    <dimen name="ll1_top_margin">80dp</dimen>
+    <dimen name="ll2_top_margin">100dp</dimen>
+    <dimen name="help_size">15sp</dimen>
+    <dimen name="facebook_button_margin_start">50dp</dimen>
+    <dimen name="facebook_button_margin_end">50dp</dimen>
+    <dimen name="facebook_description_size">10sp</dimen>
+    <dimen name="ll5_margin_top">20dp</dimen>
+    <dimen name="ll6_margin_top">20dp</dimen>
+    <dimen name="sign_in_up_button_margin_left">20dp</dimen>
+    <dimen name="sign_in_up_button_margin_right">20dp</dimen>
+    <dimen name="sign_in_up_text_size">10sp</dimen>
+    <dimen name="terms_condition_size">10sp</dimen>
+    <dimen name="activity_text1_size">24sp</dimen>
+    <dimen name="activity_text1_margin_top">320dp</dimen>
+    <dimen name="activity_text1_margin_start">20dp</dimen>
+    <dimen name="activity_text2_margin_top">390dp</dimen>
+    <dimen name="activity_text2_size">16sp</dimen>
+    <dimen name="activity_button_margin_top">20dp</dimen>
+    <dimen name="activity_text2_margin_end">20dp</dimen>
+    <dimen name="activity_text1_margin_end">20dp</dimen>
+    <dimen name="activity_button_margin_start">10dp</dimen>
+    <dimen name="activity_button_margin_end">10dp</dimen>
+    <dimen name="activity_title_size">24sp</dimen>
+    <dimen name="activity_ll4_top_margin">40dp</dimen>
+    <dimen name="viewpager_margin_top">40dp</dimen>
+</resources>

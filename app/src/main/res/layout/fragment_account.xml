@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".BottomNavigation.account">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/bottom_navigation_margin"
+        tools:ignore="UselessParent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:orientation="horizontal"
+            android:padding="@dimen/padding_ll_top"
+            tools:ignore="RelativeOverlap">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/help"
+                android:textColor="@color/green"
+                android:textSize="@dimen/help_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/ll1_top_margin"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/description1"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/ll2_top_margin">
+
+            <TextView
+                style="@style/AudioFileInfoOverlayText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/description2"
+                android:textAlignment="center"
+                android:textStyle="normal"
+                android:textFontWeight="0"
+                android:textColor="@color/gray"
+                tools:targetApi="28" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LL3"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <com.facebook.login.widget.LoginButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/facebook_button_margin_end"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginStart="@dimen/facebook_button_margin_start"
+                android:layout_marginTop="30dp"
+                tools:ignore="RtlHardcoded" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LL4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:layout_below="@id/LL3"
+            android:orientation="horizontal">
+
+            <TextView
+                style="@style/AudioFileInfoOverlayText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/facebook_description"
+                android:textAlignment="center"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/facebook_description_size" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LL5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/ll5_margin_top"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/LL4"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/email_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                style="@style/AudioFileInfoOverlayText"
+                android:background="@drawable/button_border"
+                android:textColor="@color/black"
+                android:textSize="@dimen/sign_in_up_text_size"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:layout_marginStart="@dimen/sign_in_up_button_margin_left"
+                android:layout_marginEnd="@dimen/sign_in_up_button_margin_right"
+                android:text="@string/sign_in_button"
+                android:focusable="true" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LL6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_below="@id/LL5"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/ll6_margin_top"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/sign_up_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_border"
+                android:textColor="@color/black"
+                style="@style/AudioFileInfoOverlayText"
+                android:textSize="@dimen/sign_in_up_text_size"
+                android:clickable="true"
+                android:onClick="onClick"
+                android:layout_marginStart="@dimen/sign_in_up_button_margin_left"
+                android:layout_marginEnd="@dimen/sign_in_up_button_margin_right"
+                android:text="@string/sign_up_button"
+                android:focusable="true" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/ll5_margin_top"
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@id/LL6"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/AudioFileInfoOverlayText"
+                android:text="@string/terms_conditions"
+                android:textSize="@dimen/terms_condition_size"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</FrameLayout>

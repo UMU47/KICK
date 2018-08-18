@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">KickstarterCopy</string>
+    <string name="bottom_navigation_title_kickstarter">Explore</string>
+    <string name="bottom_navigation_title_activity">Activity</string>
+    <string name="bottom_navigation_title_search">Search</string>
+    <string name="bottom_navigation_title_account">Account</string>
+
+    <string name="help">Help</string>
+
+    <string name="description1">Bring Creative Projects To Life.</string>
+
+    <string name="description2">Pledge to projects and view all your saved and\nbacked projects in one place.</string>
+
+    <string name="facebook_description">"We'll" never post anything to Facebook without\nyour permission</string>
+
+    <string name="sign_in_button">Sign in with Email</string>
+
+    <string name="sign_up_button">Sign Up with Email</string>
+
+    <string name="terms_conditions">By signin up, you agree to our terms of\nuse, privacy policy, and cookie policy.</string>
+
+    <string name="facebook_app_id">[APP_ID]</string>
+
+    <string name="title_arts">Arts</string>
+    <string name="title_comics_illustrations">Comics/Illustrations</string>
+    <string name="title_design_tech">Design/Technology</string>
+    <string name="title_ending_soon">Ending Soon</string>
+    <string name="title_films">Films</string>
+    <string name="title_food_craft">Food/Craft</string>
+    <string name="title_games">Games</string>
+    <string name="title_music">Music</string>
+    <string name="title_newest">Newest</string>
+    <string name="title_popular">Popular</string>
+    <string name="title_publishing">Publishing</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="activity_text1">Bring Creative\nprojects to life.</string>
+    <string name="activity_text2">Find projects you\'ll love in art, design, film, games, music, and more. Once you back a project, you\'ll see all your activity here.</string>
+    <string name="activity_button">Explore projects</string>
+    <string name="activity_text_title">Activity</string>
+    <string name="alert_dialog_button_text">All Projects</string>
+</resources>
